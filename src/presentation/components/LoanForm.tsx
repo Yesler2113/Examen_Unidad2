@@ -41,7 +41,7 @@ export const LoanForm = () => {
 
     calculateLoan(loanDetails);
 
-    //mensaje de calculos echos correctamente
+   
     Alert.alert('Calculo realizado correctamente');
 
     setAmount('');

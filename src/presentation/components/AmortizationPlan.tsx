@@ -7,7 +7,7 @@ export const AmortizationPlan = () => {
   const loanContext = useContext(LoanContext);
 
   if (!loanContext) {
-    return null; // Maneja el error de manera adecuada
+    return null; 
   }
 
   const { planAmortization } = loanContext;

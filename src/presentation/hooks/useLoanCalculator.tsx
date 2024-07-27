@@ -41,7 +41,7 @@ export const useLoanCalculator = () => {
       const principal = fullpayment - interest;
       balance -= principal;
       const lifeInsuranceSVSD = Math.max(balance * 0.0015, 2);
-      const lateInterest = balance * (annualInterest / 100 / 2 / 360) * 30; // asumiendo 30 días de mora para el ejemplo
+      const lateInterest = balance * (annualInterest / 100 / 2 / 360) * 30; 
       const totalPayment = fullpayment + lifeInsuranceSVSD + lateInterest;
 
       amortizationPlan.push({
